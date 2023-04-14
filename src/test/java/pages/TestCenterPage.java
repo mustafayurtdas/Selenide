@@ -17,4 +17,14 @@ public class TestCenterPage {
 
     //    giris mesaji
     public SelenideElement girisMesaji = $(By.xpath("//*[contains(text(),'You logged into a secure area!')]"));
+
+    //    CHECKBOX ELEMENTLERI
+    public SelenideElement checkbox1 = $(By.id("box1"));
+    public SelenideElement checkbox2 = $(By.id("box2"));
+
+    //    RADIO ELEMENTLERI
+    public SelenideElement red = $(By.id("red"));
+    public SelenideElement football = $(By.id("football"));
+
+
 }
